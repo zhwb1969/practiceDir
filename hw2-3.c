@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
       while(1)
 /*c10a:*/ {  switch (nu)
 /*c20a:*/      { case 1 : while(1)
-                      { printf("請輸入數字 1 到 15 之間,不可用abc : ");
+                      { printf("請輸入數字 1 到 15 之間,不可用abcdd : ");
                         scanf(" %d", &x);
                         gets(tmp);
                         if((x>=1)&&(x<=15))
